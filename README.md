@@ -1,6 +1,6 @@
 ![WPVim](https://github.com/hanpang013/WPVim/blob/main/pictures/wpvim.png)
 
-# WPVim: An IDE-like Neovim setup from WP studio -- have fun!
+# WPVim: An IDE-like Neovim setup from WP studio
 🎵 This Project is maintained by [Whirling plumage studio](https://www.facebook.com/WhirlingPlumage/?ref=pages_you_manage).
 
 ☕ Settings by [Dr.βQ](https://twitter.com/Dr_betaQ)
