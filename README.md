@@ -42,4 +42,4 @@ press `F2` to enter | | | | V-split mode
 
 
 # Have Fun!!
-![WPStudio](https://sites.google.com/view/wpsutdio)
+[![WPStudio](https://github.com/hanpang013/WPVim/blob/main/pictures/logo2)](https://sites.google.com/view/wpsutdio)
