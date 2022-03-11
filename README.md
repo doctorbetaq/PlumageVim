@@ -1,4 +1,4 @@
-![WPVim](https://github.com/hanpang013/WPVim/blob/main/pictures/wc.png)
+![WPVim](https://github.com/hanpang013/WPVim/blob/main/pictures/wpvim.png)
 
 # WPVim: An based IDE-like Neovim setup from WP studio -- have fun!
 🎵 This Project is maintained by [Whirling plumage studio](https://www.facebook.com/WhirlingPlumage/?ref=pages_you_manage).
