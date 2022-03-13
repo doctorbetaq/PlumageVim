@@ -15,7 +15,7 @@ PlumageVim is an open source Vim setup configuration init.vim file that provide 
 
 
 ## Install PlumageVim
-To use the PlumageVim setup, simply replace the init.vim in the path. 
+To use the PlumageVim setup, simply replace the init.vim in the path, or just replace the codings in the init.vim file. 
 
 Open Neovim and run PlugInstall to install all the plugins in the setup.
 
