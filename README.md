@@ -15,7 +15,7 @@ To use the PlumageVim setup, simply replace the init.vim in the path.
 
 Open Neovim and run PlugInstall to install all the plugins in the setup.
 
-👽NOTE:  you will need [vim-plug](https://github.com/junegunn/vim-plug) to automatically install the plugins WTVim need!
+👽NOTE:  you will need [vim-plug](https://github.com/junegunn/vim-plug) to automatically install the plugins PlumageVim need!
 
 
 ##  Using PlumageVim
