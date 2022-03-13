@@ -1,6 +1,4 @@
-![WPVim](https://github.com/hanpang013/WPVim/blob/main/pictures/wpvim.png)
-
-# WPVim: An IDE-like Neovim setup from WP studio
+# PlumageVim: An IDE-like Neovim setup from WP studio
 🎵 This Project is maintained by [Whirling plumage studio](https://www.facebook.com/WhirlingPlumage/?ref=pages_you_manage).
 
 ☕ Settings by [Dr.βQ](https://twitter.com/Dr_betaQ)
@@ -12,15 +10,15 @@ This is the WTVim document init.vim. for [Neovim](https://github.com/neovim/neov
 WTVIM is an open source Vim setup configuration init.vim file that provide interesting functaions.
 
 
-## Install WPVim
-To use the WPVim setup, simply replace the init.vim in the path. 
+## Install PlumageVim
+To use the PlumageVim setup, simply replace the init.vim in the path. 
 
 Open Neovim and run PlugInstall to install all the plugins in the setup.
 
 👽NOTE:  you will need [vim-plug](https://github.com/junegunn/vim-plug) to automatically install the plugins WTVim need!
 
 
-##  Using WPVim
+##  Using PlumageVim
 🌶️ There are some hot keys avalible (will continue update~):
 
 press `F1` to enter | |--|  H-split mode
