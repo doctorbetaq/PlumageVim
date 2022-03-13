@@ -1,6 +1,6 @@
 [![plumagevim](https://github.com/doctorbetaq/PlumageVim/blob/main/pictures/plumagevim.png)](https://github.com/doctorbetaq/PlumageVim)
 
-![version](https://img.shields.io/badge/Version-v0.0.1-9ee0e0)
+[![version](https://img.shields.io/badge/Version-v0.0.1-9ee0e0)](https://github.com/doctorbetaq/PlumageVim/releases/tag/v0.0.1)
 ![license](https://img.shields.io/github/license/doctorbetaq/PlumageVim?color=9ee0e0)
 # PlumageVim: An IDE-like Neovim setup from WP studio
 🎵 This Project is maintained by [Whirling plumage studio](https://www.facebook.com/WhirlingPlumage/?ref=pages_you_manage).
