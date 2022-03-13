@@ -7,7 +7,7 @@
 ## About
 This is the WTVim document init.vim. for [Neovim](https://github.com/neovim/neovim) (python3 needed)
 
-WTVIM is an open source Vim setup configuration init.vim file that provide interesting functaions.
+PlumageVim is an open source Vim setup configuration init.vim file that provide interesting functaions.
 
 
 ## Install PlumageVim
