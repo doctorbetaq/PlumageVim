@@ -29,21 +29,26 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'famiu/nvim-reload'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'arcticicestudio/nord-vim'
+Plug 'yianwillis/vimcdoc'
+Plug 'Yggdroot/indentLine'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 call plug#end()
+
 
 "=======================
 "========SETTING========
 "=======================
 
 let g:airline_theme='base16_nord'
-
+lang zh_TW.UTF-8
 syntax enable
 colorscheme plumage
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax on
 language C
-set encoding=utf-8
 set nocompatible
 filetype on
 filetype indent on
@@ -71,6 +76,74 @@ set incsearch
 set ignorecase
 set smartcase
 inoremap <C-l> <Right>
+"Airline settings
+" 關於標籤欄的樣式
+" -- 啟用標籤欄
+let g:airline#extensions#tabline#enabled = 1
+" -- 設定標籤欄分隔符
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+" -- 設定標籤欄格式
+let g:airline#extensions#tabline#formatter = 'default'
+" -- 設定標籤欄樣式
+let g:airline_theme = 'desertink'
+"-- 快捷鍵e切換到前一個標籤
+nmap e <Plug>AirlineSelectPrevTab
+"-- 快捷鍵E切換到後一個標籤
+nmap E <Plug>AirlineSelectNextTab
+let g:airline_powerline_fonts = 1
+"Nerdtree settings
+"autocmd vimenter * NERDTree 
+"autocmd vimenter * if !argc()|NERDTree|endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',}
+let NERDTreeShowBookmarks=1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let s:brown = "905532"
+let s:aqua =  "3AFFDB"
+let s:blue = "689FB6"
+let s:darkBlue = "44788E"
+let s:purple = "834F79"
+let s:lightPurple = "834F79"
+let s:red = "AE403F"
+let s:beige = "F5C06F"
+let s:yellow = "F09F17"
+let s:orange = "D4843E"
+let s:darkOrange = "F16529"
+let s:pink = "CB6F6F"
+let s:salmon = "EE6E73"
+let s:green = "8FAA54"
+let s:lightGreen = "31B53E"
+let s:white = "FFFFFF"
+let s:rspec_red = 'FE405F'
+let s:git_orange = 'F54D27'
+
+let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExtensionHighlightColor['css'] = s:blue " sets the color of css files to blue
+
+let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files
+
+let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb
+
+let g:WebDevIconsDefaultFolderSymbolColor = s:beige " sets the color for folders that did not match any rule
+let g:WebDevIconsDefaultFileSymbolColor = s:blue " sets the color for files that did not match any rule
+
+
 
 " 1. vscode defult 2. author defult 3. vscode show
 	\	'guifgs': ['#B21212', '#1B9CED','#FFFC00'],
