@@ -26,9 +26,11 @@ Open Neovim and run PlugInstall to install all the plugins in the setup.
 ##  Using PlumageVim
 🌶️ There are some hot keys avalible (will continue update~):
 
-press `F1` to enter | |--|  H-split mode
+`F1` to enter | |--|  H-split mode
   
-press `F2` to enter | | | | V-split mode
+`F2` to enter | | | | V-split mode
+
+`F5` to start Nerdtree
 
  `r`+`Enter` : Run the file in Repl
  
