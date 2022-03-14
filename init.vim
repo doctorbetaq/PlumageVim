@@ -95,7 +95,7 @@ let g:airline_powerline_fonts = 1
 "autocmd vimenter * NERDTree 
 "autocmd vimenter * if !argc()|NERDTree|endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-let NERDTreeMinimalUI = 1
+let NERDTreeMinimalUI = 0
 let NERDTreeDirArrows = 1
 let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Modified'  :'✹',
