@@ -1,8 +1,8 @@
-"[[[THE WPVIM SET UP]]] v.0.0.1
+"[[[THE PlumageVim SET UP]]] v.0.0.1
 "Setings by Dr.βQ (Studio WhirlingPlumage)
 
-"This is the WTVIM set up document init.vim. for Neovim.(python3 needed)
-"To use the set up, simply replace the init.vim in the path. 
+"This is the PlumageVim set up document init.vim. for Neovim.(python3 needed)
+"To use the set up, simply replace the init.vim in the path.
 "Open Neovim and run PlugInstall to install all the plugins in the set up.
 
 "This set up is now only for Julia language support.
@@ -42,34 +42,34 @@ syntax enable
 colorscheme plumage
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax on
-language C 
-set encoding=utf-8    
+language C
+set encoding=utf-8
 set nocompatible
 filetype on
 filetype indent on
-filetype plugin on 
+filetype plugin on
 set number
 set mouse=a
 let &t_ut=''
-set expandtab 
-set tabstop=4				
+set expandtab
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set backspace=indent,eol,start	
+set backspace=indent,eol,start
 set foldmethod=indent
 set foldlevel=99
 set laststatus=2
 set guifont=Hack:h12:cANSI:qDRAFT
-set cursorline		
+set cursorline
 set cursorcolumn
 set wrap
 set showcmd
 set wildmenu
-set hlsearch	
-exec "nohlsearch"	
-set incsearch	
-set ignorecase		
-set smartcase	
+set hlsearch
+exec "nohlsearch"
+set incsearch
+set ignorecase
+set smartcase
 inoremap <C-l> <Right>
 
 " 1. vscode defult 2. author defult 3. vscode show
@@ -110,7 +110,7 @@ let g:startify_custom_header = [
             \ '                                       /\   /\\_  _\/\/\                ',
             \ '                -Ver. 0.0.1-           \ \_/ / / / /    \              ',
             \ '            * Settings by Dr.βQ *       \   /_/ /_/ /\/\ \              ',
-            \ '        @  Studio  WhirlingPlumage @     \_/\____/\/    \/             ',
+            \ '         @  WhirlingPlumage Studio @     \_/\____/\/    \/             ',
             \ '                                                                  ',
             \ '                                                                  ',
             \]
@@ -162,7 +162,7 @@ map <c-j>b :set browsedir=buffer<CR>
 map <leader>rs :resize 30<CR>
 map <F1> <c-j>juh<F5><c-w>w<c-j>b<leader>rs
 map <F2> <c-j>juh<F5><c-w>w<c-w>w<c-j>b<c-w>L<c-w>w<c-w>w<c-w>10<s->>
-map rc : e $HOME\_vimrc<CR> 
+map rc : e $HOME\_vimrc<CR>
 map <leader>S :source $MYVIMRC
 map plin :PlugInstall<CR>
 map <F5> :NERDTreeToggle<CR>
@@ -181,4 +181,3 @@ map s <nop>
 map Q :q<CR>
 map R :source $MYVIMRC<CR>
 noremap <LEADER><CR>  :nohlsearch<CR>
-
