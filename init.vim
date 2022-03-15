@@ -31,7 +31,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'arcticicestudio/nord-vim'
 
 "You can use this plugin to show :help doc in Chinese
-Plug 'yianwillis/vimcdoc'
+"Plug 'yianwillis/vimcdoc'
 
 Plug 'Yggdroot/indentLine'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -304,7 +304,7 @@ map <c-j>j :hide Repl julia<CR>
 map uh :unhide<CR>
 map <c-j>b :set browsedir=buffer<CR>
 map <leader>rs :resize 30<CR>
-map <F1> <c-j>juh<F5><c-w>w<c-j>b<leader>rs
+map <F1> <c-j>juh<F5><c-w>w<leader>rs
 map <F2> <c-j>juh<F5><c-w>w<c-w>w<c-j>b<c-w>L<c-w>w<c-w>w<c-w>10<s->>
 map rc : e $HOME\_vimrc<CR>
 map <leader>S :source $MYVIMRC
