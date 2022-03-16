@@ -38,7 +38,7 @@ Open Neovim and run PlugInstall to install all the plugins in the setup.
  
  `plin`in normal mode will run the vim-plug `:PlugInstall` command.
  
- The defult theme of PlumageVim: Plumage Vim theme is now under development. Therefore, you can change the theme to any themes that you like!
+ The default theme of PlumageVim: Plumage Vim theme is now under development. Therefore, you can change the theme to any themes that you like!
 ## Supporting Languages
 
 🧠The WTVim is a setup based on Neovim. Therefore, all languages that Neovim supported can be supported.
